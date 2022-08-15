@@ -1,1 +1,13 @@
 /* styles go here */
+label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+label:last-child {
+  padding-bottom: 0;
+}
