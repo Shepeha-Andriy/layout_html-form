@@ -11,3 +11,7 @@ label {
 label:last-child {
   padding-bottom: 0;
 }
+
+.inline-block {
+  display: inline-block;
+}

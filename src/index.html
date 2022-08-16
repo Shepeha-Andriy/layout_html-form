@@ -45,7 +45,7 @@
 
         <label>
           I accept the term of the agreement
-          <input type="checkbox" name="car">
+          <input type="checkbox" name="term">
         </label>
       </fieldset>
 
@@ -72,9 +72,11 @@
 
       <fieldset class="form">
         <legend>An interesting fact about you!</legend>
-        <label>
+        <label class="inline-block">
           Do you love cats?
           <input type="radio" name="cat"> Yes
+        </label>
+        <label class="inline-block">
           <input type="radio" name="cat"> No
         </label>
 
@@ -102,6 +104,8 @@
           <input
             type="range"
             value="0"
+            min="0"
+            max="10"
             name="rate"
           >
         </label>
@@ -116,7 +120,7 @@
             name="text"
             cols="20"
             rows="2"
-       ></textarea>
+          ></textarea>
         </label>
 
         <label>
