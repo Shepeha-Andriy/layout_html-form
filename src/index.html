@@ -17,17 +17,17 @@
 
       <fieldset class="form">
         <legend>Personal information</legend>
-        <label>
+        <label class="label">
           Surname:
           <input type="text" name="name">
         </label>
 
-        <label>
+        <label class="label">
           Name:
           <input type="text" name="surname">
         </label>
 
-        <label>
+        <label class="label">
           How old are You?
           <input
             type="number"
@@ -38,12 +38,12 @@
           >
         </label>
 
-        <label>
+        <label class="label">
           Full date of birth:
           <input type="date" name="dateOfBirth">
         </label>
 
-        <label>
+        <label class="label">
           I accept the term of the agreement
           <input type="checkbox" name="term">
         </label>
@@ -51,7 +51,7 @@
 
       <fieldset class="form">
         <legend>Registration</legend>
-        <label>
+        <label class="label">
           E-mail:
           <input
             type="email"
@@ -60,7 +60,7 @@
           >
         </label>
 
-        <label>
+        <label class="label">
           Password:
           <input
             type="password"
@@ -72,25 +72,28 @@
 
       <fieldset class="form">
         <legend>An interesting fact about you!</legend>
-        <label class="inline-block">
           Do you love cats?
-          <input type="radio" name="cat"> Yes
+        <label class="label inline-block">
+          <input type="radio" name="cat">
+          Yes
         </label>
-        <label class="inline-block">
-          <input type="radio" name="cat"> No
+        <label class="label inline-block">
+          <input type="radio" name="cat">
+          No
         </label>
 
-        <label>
+
+        <label class="label">
           What is your favorite color?
           <input type="color" name="color">
         </label>
 
-        <label>
+        <label class="label">
           What time do you go to bed?
           <input type="time" name="time">
         </label>
 
-        <label>
+        <label class="label">
           What are your favorite brand of cars?
           <select name="car" multiple>
             <option value="bmw">BMW</option>
@@ -99,7 +102,7 @@
           </select>
         </label>
 
-        <label>
+        <label class="label">
           How do you rate our work?
           <input
             type="range"
@@ -113,17 +116,15 @@
 
       <fieldset class="form">
         <legend>Additional info:</legend>
-        <label>
+        <label class="label">
           Comments:
           <textarea
             autocomplete="off"
             name="text"
-            cols="20"
-            rows="2"
           ></textarea>
         </label>
 
-        <label>
+        <label class="label">
           Would you recommend us?
           <select name="recommend">
             <option value="yes">yes</option>
